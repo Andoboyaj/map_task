@@ -1,0 +1,15 @@
+.requests-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(161, 157, 157);
+    @media screen and (max-width: 1060px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        gap: 20px;
+      }
+}

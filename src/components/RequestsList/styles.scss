@@ -1,0 +1,37 @@
+.requests-table {
+  border: 1px solid #000;
+  width: 45%;
+  height: fit-content;
+  user-select: none;
+  th,
+  tr,
+  td {
+    border: 1px solid #000;
+    padding: 4px 12px;
+  }
+
+  tbody {
+    tr {
+      &.selected {
+        color: rgb(26, 184, 26);
+        background-color: #000;
+        border-color: #fff;
+        cursor: pointer;
+        > td {
+          font-weight: 700;
+        }
+      }
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+        border-color: #fff;
+        cursor: pointer;
+        > td {
+          font-weight: 700;
+          border-color: #fff;
+        }
+      }
+    }
+  }
+}
